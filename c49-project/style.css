@@ -1,0 +1,44 @@
+h1{
+    color: orange;
+    font: bolder;
+}
+
+*{
+    background-color: cyan;
+}
+p{
+    font-size: x-large;
+}
+li{
+    font-size: larger;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    flex-wrap: wrap;
+}
+.grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 10;
+    flex-wrap: wrap;
+  
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
